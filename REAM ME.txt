@@ -1,0 +1,47 @@
+# TÜBİTAK Projesi — Sınıf İçi Dikkat ve Hava Kalitesi Analiz Sistemi
+
+
+- Gürültü seviyesi (dB)
+- Işık parlaklığı
+- CO₂ yoğunluğu (ppm)
+- Sıcaklık & nem
+- Öğrenci hareket miktarı (opsiyonel)
+- Öğretmenin 40 dakikada bir verdiği puan (0–10)
+
+
+Sistem bu verileri işleyip **tahmini dikkat skorunu** üretir ve zamanla daha doğru tahminler yapar.
+
+
+## 🤖 Makine Öğrenmesi (Kendini Geliştirme)
+Her 40 dakikada bir öğretmen veya öğrenci **gerçek dikkat seviyesini** puan olarak girer.
+
+
+Bu puan:
+- Modelin tahmini ile karşılaştırılır
+- Model hatasını öğrenir
+- Bir sonraki ders için kendini optimize eder
+
+
+> Yani sistem, sınıfın çalışma tarzını zamanla öğrenir.
+
+## 🧪 Veri Toplama Süreci
+- Sistem ders boyunca sensör değerlerini toplar
+- Ders bitince öğretmen dikkat puanını girer
+- Model bunu öğrenme verisi olarak kaydeder
+- Haftalar ilerledikçe tahminler daha doğru hale gelir
+
+
+## 📊 Raporlama
+Sistem belirli aralıklarla:
+- Dikkat grafikleri
+- Hava kalitesi analizleri
+- Gürültü dalganımları
+- En iyi öğrenilen saatler
+- Öğrencilerin en verimli olduğu zamanlar
+
+
+gibi raporlar oluşturur.
+
+
+## 🎯 Sonuç
+Bu proje, sınıftaki ortamı daha anlaşılır hale getirerek öğrencilerin daha verimli öğrenmesini sağlar. Öğretmenler için de ders yönetimini güçlendiren veri temelli bir araç oluşturur.
